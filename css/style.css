@@ -1,0 +1,41 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   }
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+#menu-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 5rem;
+} 
+
+#menu-bar div {
+  gap: 2rem;
+  display: flex;
+}
+
+#menu-bar a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+#menu-bar a:hover {
+  color: goldenrod;
+}
+
+.gallery {
+  display: grid;
+
+}
+
+
+.gallery img{
+width: 100%;
+}
